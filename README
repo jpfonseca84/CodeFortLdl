@@ -1,0 +1,24 @@
+This project was created after my visit in the CodeFortLauderdale meeting,
+organized in the Meetup Website
+LINKS __________________________________________________
+Some relevant websites pointed by the organizer:
+codefortl.org 
+brigade.codeforamerica.org
+Census data
+usafacts.org
+fortlauderdale.data.socrata.com - Police department information
+Clearmyrecord.codeforamerica.org
+citizenonboard.com
+useronboard.com
+codefor.miami
+Buildwith.org <- Learn about the problem, so later, we can build a solution with the people who is facing the problem.
+github.com/codeforftl <- browart elected officials cartoDB tutorial
+alteryx <- maker of Tableau and data management software
+cartodb <- to make graph with data
+
+DATA __________________________________________________
+As an initial exercise, I downloaded the file ArrestRAW, that contains all the information available about the arrests in a specific area.
+
+#Obtained the accident from [fort lauderdale]{https://fortlauderdale.data.socrata.com/en/Government/Accident/gmea-gh9c}
+
+--------------

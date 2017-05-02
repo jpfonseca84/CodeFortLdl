@@ -1,0 +1,11 @@
+---
+title: "Analyzing Accidents Data"
+author: "João Pedro Fonseca"
+date: "April 30, 2017"
+output: html_document
+---
+First I identified what are the least relevant columns based on NA variables over total.
+```{r setup, include=FALSE}
+countNA(accidentsRAW)
+```
+

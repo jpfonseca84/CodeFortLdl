@@ -1,0 +1,22 @@
+---
+title: "Incident Study"
+output: html_notebook
+---
+##Data preparation##
+First, I'm going to work to remove all the columns that are not relevant for this dataset. This can be done by simply removing all columns that are mainly NA, Or by columns that don't have relevant information in it.
+
+```{r,comment=T}
+#first, I loaded this personal tools package:
+devtools::install_github("jptools","jpfonseca84",force=T)
+library("jptools")
+#Then remove columns with 50% or more of NA
+incident.raw<-read.csv("Incidents Data\\Incident.raw.csv")
+incident<-removeNAColumns(incident.raw,0.5,T)
+```
+Now, I can list all columns avaiable in the DataSet to give a look to see what is worth further analysis
+```{r}
+names(incident)
+```
+
+With the column names above, I can start to think about what information is relevant, and what is not. For those that don't seem as relevant as other, they can be dropped in the following step.
+Initialy, I think the following columns need to stay:
